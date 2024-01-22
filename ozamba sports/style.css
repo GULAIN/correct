@@ -1,0 +1,674 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+.body{
+    background-color:white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner {
+    width: 97%;
+    height: 100vh;
+    margin-left: auto; 
+    max-width: 1700px; 
+    height: 90vh;
+    margin-right: auto; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(background.jpg);
+}
+
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10 0;
+}
+
+.content h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+
+.footer-left{
+    color: white;
+    justify-content: space-around;
+}
+
+
+
+.imgabt{
+    background-image:url(mbappe.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text1{
+    text-align: center;
+    margin-bottom: 100px;
+    text-shadow: #333;
+    margin-bottom: 50px;
+    text-decoration-color: #797373;
+    background-position: center;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.ban{
+    width: 100%;
+    height: 100vh;
+    background-image: url(hands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bantu{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(sport2.jpg);   
+    width: 97%;
+    height: 100vh;
+    margin-left: auto; 
+    max-width: 1700px; 
+    height: 90vh;
+    margin-right: auto; 
+    background-size: cover;
+    background-position: center;
+}
+
+.entent{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(entertain\ image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.bant{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.custom-table{
+    border: 20px solid;
+    border-collapse: collapse;
+    height: 10px;
+    width: 10%;
+}
+.banu{
+    width: 100px auto;
+    height: 100vh;
+    background-image: url(movie3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:100px auto;
+    margin-bottom: 100px auto;
+    margin-bottom: 100px;
+}
+
+.containers {
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.heading h3{
+    font-size: 40px;
+    color: #6d3d7d;
+}
+
+.containers.heading h3 {
+    font-size: 3em;
+    border-bottom: 2px solid #6d3d7d;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #6d3d7d;
+    max-width: 600px; 
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containers h3{
+    margin-top: 50px;
+    text-decoration: none;
+}
+.containers .gallery {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px; 
+}
+
+.containers .gallery img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+    max-height: 1100px;
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s ease-out;
+}
+
+.containers .gallery img:hover {
+    filter: brightness(100%); 
+    transform: translateY(-10px);/* Adjust the filter property for a subtle hover effect */
+}
+
+
+.containers .gallery img::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -10px;
+    transition: width 0.5s ease; /* Adjusted the transition property */
+}
+
+.containers .gallery img:hover::after {
+    width: 100%;
+}
+
+.containers .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.containers.bton{
+    color: black;
+     background-color: black;
+    text-decoration: none;
+}
+.back{
+    width: 80%;
+    height: 50vmin;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+body {
+    margin: 0; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+.header h5 {
+    color: #dfd6e2;
+}
+
+.header span {
+    color: yellowgreen;
+}
+
+.animation{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.oui {
+    align-items: flex-end;
+    text-align: center;
+   margin-top: -120px;
+    margin-left: 280px;
+    margin-right: 990px;
+    padding: 20px;
+    
+    background-color: #6d3d7d;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    letter-spacing: 2px;
+   
+}
+
+.oui h1 {
+    color: rgb(237, 230, 230);
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+
+}
+
+.oui p {
+    color: rgb(215, 208, 208);
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6d3d7d;
+    color: #fff;
+    padding: 10px 80px 10px 150px; /* Adjusted padding values */
+    max-width: 2000px; /* Adjust the value according to your preference */
+    width: 100%;
+    height: 210px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left a {
+    color: white;
+    
+    text-decoration: none;
+    font-size: 16px;
+    width: 100px;
+    margin-bottom: 80px;
+    margin-left: 8px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+
+}
+.footer-right .social-icon{
+    width: 100%;
+}
+
+.footer-right .social-icon i{
+    color: white;
+    margin-right: auto;
+}
+
+.social-icon p{
+    text-align: center;
+    margin:0 0 auto;
+}
+
+.footer-right h2{
+    text-align: end;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer-right p{
+    text-align: end;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.footer-right h2,
+.footer-right p {
+    margin-bottom: 10px;
+    align-items: left; /* This property is not applicable to margin, so I removed it */
+}
+
+.footer-right p {
+    margin-left: 8px;
+}
+
+hr {
+    width: 1000px; /* Adjusted width to be 100% */
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+
+.col{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.col p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+
+.copy{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180%;
+}
+
+.column-container {
+    width: 100%;
+    height: 80vh;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); /* Adjust the minimum width as needed */
+    grid-gap: 10px; /* Adjust the gap between columns and rows as needed */
+}
+
+.column-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.class {
+     margin-top: -70px; 
+    margin-bottom: 20px; 
+}
+
+.class h3 {
+    margin-top: -70px; 
+    margin: 0;
+}
+
+.column-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 8px; 
+    margin-top: -20px; 
+}
+
+.column-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.column-container {
+    margin-top: -50px; 
+    margin-bottom: -20px;
+}
+
+.column-container h3 {
+    margin: 0;
+}
+.column-container .class{
+    margin-top: -70px; 
+    margin-bottom: 20px;
+}
+.class{
+    margin-right: 200px;
+    text-align: start;
+}
+.class .span{
+    margin-right: 200px;
+    
+}
+.column-container {
+    width: 100%;
+    height: 80vh;
+    max-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-gap: 10px; 
+    
+}
+
+.column-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-right: 1800px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; 
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    padding: 1px;
+    height: 80vh;
+    margin-bottom: 300px;
+    transition: transform 0.3s ease-out;
+
+}
+
+.gallery-item:hover{
+    transform: scale(1.1);
+}
+
+
+.gallery-item:last-child {
+    margin-right: 0; 
+}
+
+.gallery-item img {
+    width: 100%;
+    background-image: url(aron.jpg);
+    background-position: center;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-overlay h1,
+.text-overlay h2 {
+    margin: 0;
+    text-align: center;
+    color: white; 
+}
+.non{
+    align-items: flex-end;
+    text-align: center;
+   margin-top: -120px;;
+    margin-left: 480px;
+    margin-right: 390px;
+    padding: 20px;
+    
+    background-color: #6d3d7d;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    letter-spacing: 2px;
+}
+.non h1{
+    margin-top:50px ;
+    color:white;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.non p{
+    color:rgb(245, 240, 240);
+    margin: 10px 0;
+    text-align: center;
+}
+.join {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.join p {
+    margin-bottom: 20px; 
+    color: black;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 18px;
+}
+
+.join button {
+    border: none;
+    padding: 20px;
+    background-color: rgb(12, 12, 114);
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 90px;
+}
+.join button:hover{
+    background-color: #6d3d7d;
+}
+.join button a{
+    color: white;
+    text-decoration: none;
+}
+
+.sport{
+    align-items: flex-end;
+    text-align: center;
+   margin-top: -120px;;
+    margin-left: 1198px;
+    margin-right: 25px;
+    padding: 20px;
+    background-color: #6d3d7d;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    letter-spacing: 2px;
+}
+.sport h1{
+    margin-top:50px ;
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+.sport p{
+    color:white;
+    margin: 10px 0;
+    text-align: center;
+}
+@media(max-width:700px){
+    .oui{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.campus {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    text-align: start;
+    margin-top: 50px; /* Adjusted margin-top */
+}
+
+.campus h1 {
+    display: inline-block;
+    font-size: 35px;
+    margin-top: auto;
+    margin-left: 50px; /* Adjusted margin-left */
+    font-style: italic;
+}
+
+.campus p {
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.campus p:hover {
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    grid: 10px;
+    flex-wrap: wrap;
+}
+
+.campus-col {
+    flex-basis: calc(20% - 20px);
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 0 0 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img {
+    width: 100%;
+    border-radius: 1px;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.lawyer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.campus-col img :hover {
+    background: transparent;
+}
+
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer.container{
+    background-color: blueviolet;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.right .footer-col a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
