@@ -112,3 +112,33 @@ body{
         grid-template-columns: 1fr;
     }
  }
+
+
+ @media screen and (max-width: 668px) {
+    .description-container{
+        margin: 100%;
+    }
+    .description-container .floating-image {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .description-container .floating-image.left,
+    .description-container .floating-image.right {
+        float: right;
+        margin-left: 0;
+    }
+
+    .description-container .floating-image.left h3 {
+        margin-left: 0;
+    }
+
+    .description-container p {
+        text-align: left;
+    }
+
+    .description-container h3 {
+        margin-left: 0;
+    }
+}

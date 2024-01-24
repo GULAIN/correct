@@ -118,34 +118,133 @@
         }
 
         nav {
-            display: flex;
-            justify-content: flex-end;
-            background-color: white;
-            padding: 10px;
-        }
+    width: 100%;
+    background-color: white;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 20px; /* Adjusted padding for better responsiveness */
+}
 
-        nav a {
-            color: black;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0 10px;
-        }
+nav ul {
+    float: right;
+}
 
-        nav a:hover {
-            background-color: #777;
-        }
+nav ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+    transition: all .4s ease-in-out;
+    padding: 0px 16px;
+    display: block;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    color: black;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li ul li {
+    line-height: 1;
+    width: 190px;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav ul li ul li a {
+    padding: 10px 16px;
+}
+
+nav ul li ul li a:hover {
+    background-color: #A9A9A9;
+}
+
+nav ul li a:hover {
+    background-color: #A9A9A9;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        float: none; /* Remove float for stacking items */
+        text-align: center; /* Center align items */
+    }
+
+    nav ul li {
+        float: none;
+        display: inline-block; /* Stack items */
+    }
+
+    nav ul li ul {
+        position: static; /* Remove absolute positioning */
+        display: none;
+        width: 100%;
+    }
+
+    nav ul li:hover ul {
+        display: none; /* Hide dropdowns by default */
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        float: none; /* Remove float for stacking items */
+        text-align: center; /* Center align items */
+    }
+
+    nav ul li {
+        float: none;
+        display: inline-block; /* Stack items */
+    }
+
+    nav ul li ul {
+        position: static; /* Remove absolute positioning */
+        display: none;
+        width: 100%;
+    }
+
+    nav ul li:hover ul {
+        display: none; /* Hide dropdowns by default */
+    }
+}
+
     
     </style>
     
 </head>
 <body>
     <nav>
-        <a href="ozamba.html">HOME</a>
-        <a href="aboutus.html">ABOUT US</a>
-        <a href="ourwork.html">WORK</a>
-        <a href="services.html">SERVICES</a>
-        <a href="contact.html">CONTACT</a>
-    </nav>
+        <ul>
+         <li><a href="ozamba.html">HOME</a></li>
+         <li><a href="aboutus.html">ABOUT US</a></li>
+         <li><a href="ourwork.html">OUR WORK</a></li>
+         <li><a href="services.html">SERVICES</a>
+         <ul>
+             <li><a href="sports.html" id="design">Sports</a></li>
+             <li><a href="Entertainment.html" id="build">Entertainment</a></li>
+             
+         </ul>
+         </li>
+         <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+     </nav>
     <div class="ban">
         <div class="navbar">
             <a href="ozamba.html">        
@@ -167,17 +266,60 @@
         </div>
         
        </div>
-        <footer>
-            <div class="footer-left">
-                <p>9 Rue Anatole de la Forge, 75017 Paris, France</p>
-                <p>+33 1 40 55 46 34</p>
-                <p>Email: ghada@ozamba-creative.com</p>
-            </div>
-            <div class="footer-right">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact</a>
-            </div>
-        </footer>
+       <footer>
+        <div class="footer-left">
+            <ul>
+                <li><a href="ozamba.html">Home</a></li>
+                <li><a href="#">Who we are</a></li>
+                <li><a href="ourwork.html">Our Work</a></li>
+                <li><a href="ozamba.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              
+        </div>
+        
+        <div class="footer-right">
+            <h1>OZAMBA</h1>
+            <p>EVENTS</p>
+        </div>
+        
+        <div class="footer-bottom">
+            
+           <p>© 2024 OZAMBA EVENTS. All rights are reserved.</p>
+         
+        
+           
+        </div>
+        
+        <div class="footer-left">
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a><a href=""><i class="fa-brands fa-"></i></a><a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            
+           
+        
+        </div>
+       </footer>
 </body>
 </html>
