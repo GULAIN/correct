@@ -53,8 +53,7 @@
     float: left;
 }
 
-/* Media Query for Responsive Design (adjust the max-width based on your design) */
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 768px) {
     .description-container{
         margin: 100%;
     }

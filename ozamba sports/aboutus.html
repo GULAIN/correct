@@ -117,12 +117,19 @@
             text-align: start;
         }
 
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: start;
+        }
+
         nav {
     width: 100%;
     background-color: white;
     height: 75px;
     line-height: 75px;
-    padding: 0px 20px; /* Adjusted padding for better responsiveness */
+    padding: 0px 20px; 
 }
 
 nav ul {
@@ -161,7 +168,7 @@ nav ul li ul li {
     line-height: 1;
     width: 190px;
     padding: 8px 16px;
-    display: inline-block;
+    display: block; /* Change from inline-block to block */
     border-radius: 5px;
 }
 
@@ -177,53 +184,56 @@ nav ul li a:hover {
     background-color: #A9A9A9;
 }
 
-/* Media Query for Responsive Design */
 @media screen and (max-width: 768px) {
+
+    
+    nav {
+        padding: 0;
+    }
+
     nav ul {
-        float: none; /* Remove float for stacking items */
-        text-align: center; /* Center align items */
+        float: right;
+        text-align: center;
     }
 
     nav ul li {
         float: none;
-        display: inline-block; /* Stack items */
+        display: block;
+        width: auto;
+        text-align: left;
+        position: relative;
+        background: white;
     }
 
     nav ul li ul {
-        position: static; /* Remove absolute positioning */
+        position: absolute;
+        top: 100%; 
+        left: 0;
         display: none;
+        background: white;
         width: 100%;
+        z-index: 2; 
     }
 
     nav ul li:hover ul {
-        display: none; /* Hide dropdowns by default */
-    }
-}
-
-
-
-
-@media screen and (max-width: 768px) {
-    nav ul {
-        float: none; /* Remove float for stacking items */
-        text-align: center; /* Center align items */
+        display: block;
     }
 
-    nav ul li {
-        float: none;
-        display: inline-block; /* Stack items */
-    }
-
-    nav ul li ul {
-        position: static; /* Remove absolute positioning */
-        display: none;
+    nav ul li ul li {
+        display: block; 
         width: 100%;
+        text-align: left;
     }
 
-    nav ul li:hover ul {
-        display: none; /* Hide dropdowns by default */
+    nav ul li ul li a {
+        padding: 10px 16px;
+    }
+
+    nav ul li ul li a:hover {
+        background-color: #A9A9A9;
     }
 }
+
 
     
     </style>
@@ -235,7 +245,7 @@ nav ul li a:hover {
          <li><a href="ozamba.html">HOME</a></li>
          <li><a href="aboutus.html">ABOUT US</a></li>
          <li><a href="ourwork.html">OUR WORK</a></li>
-         <li><a href="services.html">SERVICES</a>
+         <li><a href="#">SERVICES</a>
          <ul>
              <li><a href="sports.html" id="design">Sports</a></li>
              <li><a href="Entertainment.html" id="build">Entertainment</a></li>
@@ -269,11 +279,11 @@ nav ul li a:hover {
        <footer>
         <div class="footer-left">
             <ul>
-                <li><a href="ozamba.html">Home</a></li>
-                <li><a href="#">Who we are</a></li>
-                <li><a href="ourwork.html">Our Work</a></li>
-                <li><a href="ozamba.html">Service</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="ozamba.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="ourwork.html">OUR WORK</a></li>
+                <li><a href="ozamba.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
               </ul>
               
         </div>
